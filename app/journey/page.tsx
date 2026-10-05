@@ -110,7 +110,7 @@ export default function JourneyPage() {
           {step === 2 && (
             <div>
               <p className="font-mono text-[10px] uppercase tracking-widest text-brand-muted">Unit picker</p>
-              <div className="mt for-4 space-y-2">
+              <div className="mt-4 space-y-2">
                 {products.slice(0, 8).map((p, i) => (
                   <button
                     key={p.id}
